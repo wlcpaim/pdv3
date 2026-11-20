@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 20% 98%;
+  --foreground: 220 20% 10%;
+  --card: 0 0% 100%;
+  --primary: 220 80% 50%;
+  --success: 140 60% 45%;
+  --destructive: 0 70% 50%;
+}
+
+@layer base {
+  body {
+    @apply bg-[hsl(var(--background))] text-[hsl(var(--foreground))] font-sans antialiased;
+  }
+}
